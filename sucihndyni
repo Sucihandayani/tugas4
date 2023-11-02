@@ -1,0 +1,60 @@
+cd C:\Users\user\OneDrive\Pictures\Documents\New Folder (4)\sucihndyni; "JAVA_HOME=C:\\Program Files\\Java\\jdk-21" cmd /c "\"C:\\Program Files\\NetBeans-19\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.sucihndyni.Sucihndyni \"-Dexec.executable=C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-19\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+----------------------< com.mycompany:sucihndyni >----------------------
+Building sucihndyni 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ sucihndyni ---
+skip non existing resourceDirectory C:\Users\user\OneDrive\Pictures\Documents\New Folder (4)\sucihndyni\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ sucihndyni ---
+Changes detected - recompiling the module! :source
+Compiling 1 source file with javac [debug target 21] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ sucihndyni ---
+Input angka-1: 40
+Input angka-2: 20
+Hasil = 60.0
+Input angka-1: 80
+Input angka-2: 45
+Hasil = 35.0
+Input angka-1: 60
+Input angka-2: 70
+Hasil = 4200.0
+Input angka-1: 65
+Input angka-2: 55
+Hasil = 1.1818181818181819
+Input angka-1: 80
+Input angka-2: 85
+Hasil = 80.0
+================================================
+Operator Pembanding
+Masukkan nilai A: 50
+Masukkan nilai B: 25
+Apakah A lebih besar dari B? true
+Apakah A lebih kecil dari B? false
+Apakah A sama dengan B? false
+Apakah A tidak sama dengan B? true
+Apakah A lebih besar atau sama dengan B? true
+Apakah A lebih kecil atau sama dengan B? false
+============================================================
+Masukkan nilai a: 60
+Masukkan nilai b: 70
+Hasil operasi AND: 4
+Hasil operasi OR: 126
+Hasil operasi XOR: 122
+Hasil operasi negasi: -61
+Masukkan nilai a: 80
+Masukkan nilai b: 85
+Hasil operasi Left Shift:167772160
+Masukkan nilai a: 60
+Masukkan nilai b: 30
+Hasil operasi Right Shift:0
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  01:15 min
+Finished at: 2023-11-02T17:13:42+07:00
+------------------------------------------------------------------------
